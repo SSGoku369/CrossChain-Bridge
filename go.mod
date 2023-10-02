@@ -4,7 +4,8 @@ go 1.14
 
 require (
 	github.com/BurntSushi/toml v0.4.1
-	github.com/btcsuite/btcd v0.21.0-beta
+	github.com/btcsuite/btcd v0.23.2
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/btcsuite/btcwallet/wallet/txauthor v1.0.0
 	github.com/btcsuite/btcwallet/wallet/txrules v1.0.0
@@ -19,7 +20,6 @@ require (
 	github.com/giangnamnabka/btcwallet/wallet/txauthor v1.0.1-0.20210422185028-3bf95367dc20
 	github.com/giangnamnabka/btcwallet/wallet/txrules v1.0.1-0.20210422185028-3bf95367dc20
 	github.com/giangnamnabka/btcwallet/wallet/txsizes v1.0.1-0.20210422185028-3bf95367dc20
-	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/gofuzz v1.0.0 // indirect
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
@@ -38,7 +38,7 @@ require (
 	github.com/shopspring/decimal v1.2.0
 	github.com/sirupsen/logrus v1.7.0
 	github.com/stretchr/testify v1.7.0
-	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
+	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	github.com/tebeka/strftime v0.1.5 // indirect
 	github.com/tendermint/go-amino v0.16.0
 	github.com/urfave/cli/v2 v2.3.0
